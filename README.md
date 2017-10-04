@@ -1,6 +1,6 @@
 # Messenger
 
-1 Introduction
+# 1 Introduction
 Management has decided to develop a messaging system for use in hospitals. Physicians,
 nurses, and administrators shall be able to securely use it for communication. Users can be
 subscribed to groups and can send a message to the group. It is essential for privacy
@@ -13,7 +13,7 @@ correct and satisfies the specified safety behavior;
 • You validate the safety of your system using contracts, unit tests and acceptance
 tests.
 
-2 Requirements
+# 2 Requirements
 Requirements elicitation has resulted in an abstract grammar for the user interface.
 Eventually, there will be a desktop application, a webapp and mobile app for users
 (physicians, nurses, administrators and patients). However, the concrete GUIs will be
