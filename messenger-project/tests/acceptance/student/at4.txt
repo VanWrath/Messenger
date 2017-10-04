@@ -1,0 +1,11 @@
+add_user ( 2 , "a")
+add_user ( 1 , "b")
+add_group(6, "abc") 		-- id must be positive
+add_group(1, "Doctors")
+add_group(1, "Nurses") 		-- group already exists
+add_group(2, "Staff")
+add_group(3, "Nurses")
+add_user( 10000000000, "j")
+send_message ( 1, 4, "hello")
+send_message ( 2, 4, "hello back")
+send_message ( 3, 4, "hello everyone""")

@@ -1,0 +1,17 @@
+set_message_preview(15)
+register_user(1, 1)
+register_user(2, 2)
+list_new_messages(3)
+read_message(1, 1)
+delete_message(10, 1)
+set_message_preview(5)
+list_groups
+list_users
+list_old_messages(1)
+send_message(1, 1, "hello")
+list_groups
+list_users
+add_group(1, "a")
+add_group(2, "3342")
+add_group(3, "3311")
+list_groups
